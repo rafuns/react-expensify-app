@@ -4,7 +4,7 @@ exports[`should render ExpenseDashboardPage correctly 1`] = `
 ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Header />,
+  Symbol(enzyme.__unrendered__): <ExpenseDashboardPage />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -18,31 +18,9 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <h1>
-          Expensify
-</h1>,
-        <NavLink
-          activeClassName="is-active"
-          ariaCurrent="true"
-          exact={true}
-          to="/"
->
-          Dashboard
-</NavLink>,
-        <NavLink
-          activeClassName="is-active"
-          ariaCurrent="true"
-          to="/create"
->
-          Create
-</NavLink>,
-        <NavLink
-          activeClassName="is-active"
-          ariaCurrent="true"
-          to="/help"
->
-          Help
-</NavLink>,
+        <Connect(ExpensesSummary) />,
+        <Connect(ExpenseListFilters) />,
+        <Connect(ExpenseList) />,
       ],
     },
     "ref": null,
@@ -50,59 +28,32 @@ ShallowWrapper {
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": "Expensify",
-        },
+        "nodeType": "class",
+        "props": Object {},
         "ref": null,
-        "rendered": "Expensify",
-        "type": "h1",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "function",
-        "props": Object {
-          "activeClassName": "is-active",
-          "ariaCurrent": "true",
-          "children": "Dashboard",
-          "exact": true,
-          "to": "/",
-        },
-        "ref": null,
-        "rendered": "Dashboard",
+        "rendered": null,
         "type": [Function],
       },
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "function",
-        "props": Object {
-          "activeClassName": "is-active",
-          "ariaCurrent": "true",
-          "children": "Create",
-          "to": "/create",
-        },
+        "nodeType": "class",
+        "props": Object {},
         "ref": null,
-        "rendered": "Create",
+        "rendered": null,
         "type": [Function],
       },
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "function",
-        "props": Object {
-          "activeClassName": "is-active",
-          "ariaCurrent": "true",
-          "children": "Help",
-          "to": "/help",
-        },
+        "nodeType": "class",
+        "props": Object {},
         "ref": null,
-        "rendered": "Help",
+        "rendered": null,
         "type": [Function],
       },
     ],
-    "type": "header",
+    "type": "div",
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
@@ -111,31 +62,9 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <h1>
-            Expensify
-</h1>,
-          <NavLink
-            activeClassName="is-active"
-            ariaCurrent="true"
-            exact={true}
-            to="/"
->
-            Dashboard
-</NavLink>,
-          <NavLink
-            activeClassName="is-active"
-            ariaCurrent="true"
-            to="/create"
->
-            Create
-</NavLink>,
-          <NavLink
-            activeClassName="is-active"
-            ariaCurrent="true"
-            to="/help"
->
-            Help
-</NavLink>,
+          <Connect(ExpensesSummary) />,
+          <Connect(ExpenseListFilters) />,
+          <Connect(ExpenseList) />,
         ],
       },
       "ref": null,
@@ -143,59 +72,32 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "Expensify",
-          },
+          "nodeType": "class",
+          "props": Object {},
           "ref": null,
-          "rendered": "Expensify",
-          "type": "h1",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "activeClassName": "is-active",
-            "ariaCurrent": "true",
-            "children": "Dashboard",
-            "exact": true,
-            "to": "/",
-          },
-          "ref": null,
-          "rendered": "Dashboard",
+          "rendered": null,
           "type": [Function],
         },
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "activeClassName": "is-active",
-            "ariaCurrent": "true",
-            "children": "Create",
-            "to": "/create",
-          },
+          "nodeType": "class",
+          "props": Object {},
           "ref": null,
-          "rendered": "Create",
+          "rendered": null,
           "type": [Function],
         },
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "activeClassName": "is-active",
-            "ariaCurrent": "true",
-            "children": "Help",
-            "to": "/help",
-          },
+          "nodeType": "class",
+          "props": Object {},
           "ref": null,
-          "rendered": "Help",
+          "rendered": null,
           "type": [Function],
         },
       ],
-      "type": "header",
+      "type": "div",
     },
   ],
   Symbol(enzyme.__options__): Object {
