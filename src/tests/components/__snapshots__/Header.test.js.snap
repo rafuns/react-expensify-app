@@ -26,8 +26,7 @@ ShallowWrapper {
         <NavLink
           activeClassName="is-active"
           ariaCurrent="true"
-          exact={true}
-          to="/"
+          to="/dashboard"
 >
           Dashboard
 </NavLink>,
@@ -36,14 +35,7 @@ ShallowWrapper {
           ariaCurrent="true"
           to="/create"
 >
-          Create
-</NavLink>,
-        <NavLink
-          activeClassName="is-active"
-          ariaCurrent="true"
-          to="/help"
->
-          Help
+          Create Expense
 </NavLink>,
         <button
           onClick={[Function]}
@@ -73,8 +65,7 @@ ShallowWrapper {
           "activeClassName": "is-active",
           "ariaCurrent": "true",
           "children": "Dashboard",
-          "exact": true,
-          "to": "/",
+          "to": "/dashboard",
         },
         "ref": null,
         "rendered": "Dashboard",
@@ -87,25 +78,11 @@ ShallowWrapper {
         "props": Object {
           "activeClassName": "is-active",
           "ariaCurrent": "true",
-          "children": "Create",
+          "children": "Create Expense",
           "to": "/create",
         },
         "ref": null,
-        "rendered": "Create",
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "function",
-        "props": Object {
-          "activeClassName": "is-active",
-          "ariaCurrent": "true",
-          "children": "Help",
-          "to": "/help",
-        },
-        "ref": null,
-        "rendered": "Help",
+        "rendered": "Create Expense",
         "type": [Function],
       },
       Object {
@@ -136,8 +113,7 @@ ShallowWrapper {
           <NavLink
             activeClassName="is-active"
             ariaCurrent="true"
-            exact={true}
-            to="/"
+            to="/dashboard"
 >
             Dashboard
 </NavLink>,
@@ -146,14 +122,7 @@ ShallowWrapper {
             ariaCurrent="true"
             to="/create"
 >
-            Create
-</NavLink>,
-          <NavLink
-            activeClassName="is-active"
-            ariaCurrent="true"
-            to="/help"
->
-            Help
+            Create Expense
 </NavLink>,
           <button
             onClick={[Function]}
@@ -183,8 +152,7 @@ ShallowWrapper {
             "activeClassName": "is-active",
             "ariaCurrent": "true",
             "children": "Dashboard",
-            "exact": true,
-            "to": "/",
+            "to": "/dashboard",
           },
           "ref": null,
           "rendered": "Dashboard",
@@ -197,25 +165,11 @@ ShallowWrapper {
           "props": Object {
             "activeClassName": "is-active",
             "ariaCurrent": "true",
-            "children": "Create",
+            "children": "Create Expense",
             "to": "/create",
           },
           "ref": null,
-          "rendered": "Create",
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "activeClassName": "is-active",
-            "ariaCurrent": "true",
-            "children": "Help",
-            "to": "/help",
-          },
-          "ref": null,
-          "rendered": "Help",
+          "rendered": "Create Expense",
           "type": [Function],
         },
         Object {
